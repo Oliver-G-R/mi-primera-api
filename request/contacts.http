@@ -1,0 +1,31 @@
+###
+GET http://localhost:3000/api/users
+
+###
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "fritsName": "Tod",
+    "lastName": "Steuber",   
+    "userName": "Hilario_Beahan",
+    "email": "Virginie.Feest@hotmail.com",
+    "password": "hefVFzebRRHYQnM",
+    "tel": "594-807-7100"
+}
+
+### 
+GET http://localhost:3000/api/users/5ff0e943e5e8c20ae47d38fd
+
+### 
+DELETE  http://localhost:3000/api/users/5ff0f3dd2ca3a02ed0287714
+
+
+
+###
+PUT http://localhost:3000/api/users/5ff0e943e5e8c20ae47d38fd
+Content-Type: application/json
+
+{
+    "fritsName": "Oliver 2"
+}
