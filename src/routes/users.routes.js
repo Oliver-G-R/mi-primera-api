@@ -10,12 +10,17 @@ import { requireValidationsUser, showErrors } from '../validations/validationsUs
 
 routes.get('/', getUsersAll)
 
-routes.post(
+/* routes.post(
     '/',
     requireValidationsUser,
     showErrors,
     createUser
-)
+) */
+
+routes.route('/').post(
+    requireValidationsUser,
+    showErrors,
+    createUser)
 
 routes.get('/:id', getUserforId)
 

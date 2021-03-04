@@ -6,7 +6,7 @@ POST http://localhost:3000/api/users
 Content-Type: application/json
 
 {
-    "firstName": "   ds      dqwdqd",
+    "firstName": "Express Validator",
     "lastName":"2eww ",   
     "userName": "o_esssahan",
     "email": "Virginssie@Feesthotmail.com",
