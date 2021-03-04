@@ -6,19 +6,19 @@ POST http://localhost:3000/api/users
 Content-Type: application/json
 
 {
-    "fritsName": "Tod",
-    "lastName": "Steuber",   
-    "userName": "Hilario_Beahan",
-    "email": "Virginie.Feest@hotmail.com",
-    "password": "hefVFzebRRHYQnM",
-    "tel": "594-807-7100"
+    "firstName": "   ds      dqwdqd",
+    "lastName":"2eww ",   
+    "userName": "o_esssahan",
+    "email": "Virginssie@Feesthotmail.com",
+    "password": "*2sfdfqs",
+    "tel": "5948077100"
 }
 
 ### 
 GET http://localhost:3000/api/users/5ff0e943e5e8c20ae47d38fd
 
 ### 
-DELETE  http://localhost:3000/api/users/5ff0f3dd2ca3a02ed0287714
+DELETE  http://localhost:3000/api/users/5ff390f134d1d534c4914a0a
 
 
 

@@ -1,4 +1,4 @@
-import { Schema , model} from 'mongoose'
+import { Schema, model } from 'mongoose'
 
 const requireParams = {
     type: String,
@@ -7,21 +7,14 @@ const requireParams = {
 }
 
 const contactsSchema = new Schema({
-    fritsName: requireParams,
+    firstName: requireParams,
     lastName: requireParams,
-    
+
     userName: requireParams,
     email: requireParams,
-    password: {
-        ...requireParams,
-        min: 8,
-        max: 15
-    },
+    password: requireParams,
     tel: requireParams,
-    
-}, {
-    versionKey: false,
-    timestamps: true
+
 })
 
 export default model('contacts', contactsSchema)
